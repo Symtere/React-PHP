@@ -32,5 +32,6 @@ class LikeButton extends React.Component {
 
 
 document.querySelectorAll('span.react-like').forEach(function (span) {
-    ReactDOM.render(React.createElement(LikeButton), span);
+    const root = ReactDOM.createRoot(span);
+    root.render(React.createElement(LikeButton));
 });
