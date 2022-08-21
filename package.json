@@ -1,0 +1,33 @@
+{
+  "name": "php-react",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "encore dev",
+    "watch": "encore dev --watch",
+    "build": "encore production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Symtere/React-PHP.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Symtere/React-PHP/issues"
+  },
+  "homepage": "https://github.com/Symtere/React-PHP#readme",
+  "devDependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.18.6",
+    "@babel/preset-react": "^7.18.6",
+    "@symfony/webpack-encore": "^3.0.0"
+  },
+  "dependencies": {
+    "core-js": "^3.24.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
